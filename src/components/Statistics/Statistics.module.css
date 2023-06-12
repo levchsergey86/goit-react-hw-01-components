@@ -1,0 +1,44 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 400px;
+  align-items: center;
+  background-color: #f5deb3;
+  border: 2px solid #4b0082;
+  border-radius: 10px;
+}
+
+.statlist {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: auto;
+}
+
+.title {
+  font-family: Georgia;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.label {
+  font-family: Georgia;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.percentage {
+  font-family: Georgia;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+}

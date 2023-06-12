@@ -1,0 +1,44 @@
+.transactionHistory {
+  table-layout: fixed;
+  width: 600px;
+  border-collapse: collapse;
+  border: 3px solid purple;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.transactionHistory thead {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.transactionHistory tbody {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  color: #b0c4de;
+}
+
+.transactionHistory th {
+  padding: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: #b0c4de;
+}
+
+.transactionHistory td {
+  padding: 7px;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.transactionHistory tr:nth-child(odd) {
+  background-color: #f72828; /* Цвет фона для нечетных строк */
+}
+
+.transactionHistory tr:nth-child(even) {
+  background-color: #447800; /* Цвет фона для четных строк */
+}
